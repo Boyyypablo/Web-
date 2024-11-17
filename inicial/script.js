@@ -197,3 +197,50 @@ function filtrarVagas() {
         resultadosContainer.innerHTML = '<p>Nenhum resultado encontrado.</p>';
     }
 }
+function filtrarVagas() {
+    const termo = document.getElementById('regiao').value.toLowerCase();
+    const resultadosContainer = document.getElementById('resultados');
+
+    resultadosContainer.innerHTML = '';
+
+    const resultados = vagas.filter(vaga => 
+        vaga.localizacao.toLowerCase().includes(termo) ||
+        vaga.tipo_vaga.toLowerCase().includes(termo) ||
+        vaga.nome.toLowerCase().includes(termo)
+    );
+
+    if (resultados.length > 0) {
+        resultados.forEach(vaga => {
+            const vagaItem = document.createElement('div');
+            vagaItem.classList.add('result-item');
+            vagaItem.innerHTML = `
+                <h3>${vaga.nome}</h3>
+                <p><strong>Tipo:</strong> ${vaga.tipo_vaga}</p>
+                <p><strong>Localização:</strong> ${vaga.localizacao}</p>
+                <p><strong>Modalidade:</strong> ${vaga.modalidade}</p>
+                <p><strong>Salário:</strong> R$ ${vaga.salario.toFixed(2)}</p>
+                <button onclick="mostrarTexto(${vaga.id_vaga})">Ver mais informações</button>
+                <div id="texto-vaga-${vaga.id_vaga}" class="detalhes-texto" style="display: none;"></div>
+            `;
+            resultadosContainer.appendChild(vagaItem);
+        });
+    } else {
+        resultadosContainer.innerHTML = '<p>Nenhum resultado encontrado.</p>';
+    }
+}
+
+function mostrarTexto(idVaga) {
+    const vaga = vagas.find(v => v.id_vaga === idVaga);
+    const textoContainer = document.getElementById(`texto-vaga-${idVaga}`);
+    
+    // Alterna a visibilidade do texto
+    if (textoContainer.style.display === 'none') {
+        textoContainer.style.display = 'block';
+        textoContainer.innerHTML = `
+            <p><strong>Descrição:</strong> Esta vaga é para a posição de ${vaga.nome}, localizada em ${vaga.localizacao}. Ela é do tipo ${vaga.tipo_vaga} e possui a modalidade de trabalho ${vaga.modalidade}. O salário para esta vaga é de R$ ${vaga.salario.toFixed(2)}.</p>
+        `;
+    } else {
+        textoContainer.style.display = 'none';
+        textoContainer.innerHTML = '';
+    }
+}
