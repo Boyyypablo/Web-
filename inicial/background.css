@@ -88,7 +88,7 @@ h2 {
 
 .close {
     position: absolute;
-    top: 15px;
+    top: 9px;
     right: 20px;
     color: #123456;
     font-size: 1.5rem;
@@ -97,10 +97,10 @@ h2 {
 }
 .detalhes-texto {
     margin-top: 10px;
-    padding: 10px;
-    background-color: #f8f9fa;
-    color: #123456;
-    border-radius: 70px;
+    padding: 15px;
+    background-color: #8abef3;
+    color: #070707;
+    border-radius: 200px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
