@@ -237,7 +237,7 @@ function mostrarTexto(idVaga) {
     if (textoContainer.style.display === 'none') {
         textoContainer.style.display = 'block';
         textoContainer.innerHTML = `
-            <p><strong>Descrição:</strong> Esta vaga é para a posição de ${vaga.nome}, localizada em ${vaga.localizacao}. Ela é do tipo ${vaga.tipo_vaga} e possui a modalidade de trabalho ${vaga.modalidade}. O salário para esta vaga é de R$ ${vaga.salario.toFixed(2)}.</p>
+            <p><strong>Descrição:</strong> Esta vaga é para a posição de ${vaga.nome}, a empresa está localizada em ${vaga.localizacao}. Ela é do tipo ${vaga.tipo_vaga} e possui a modalidade de trabalho ${vaga.modalidade}. O salário para esta vaga é de R$ ${vaga.salario.toFixed(2)}.</p>
         `;
     } else {
         textoContainer.style.display = 'none';
