@@ -1,5 +1,6 @@
 const vagas = [
         // Vagas CLT
+        
         {
             id_vaga: 1,
             tipo_vaga: "CLT",
@@ -25,6 +26,166 @@ const vagas = [
             salario: 12000.0
         },
         {
+            id_vaga: 21,
+            tipo_vaga: "CLT",
+            nome: "Desenvolvedor Backend",
+            localizacao: "São Paulo",
+            modalidade: "Híbrido",
+            salario: 8500.00
+        },
+        {
+            id_vaga: 22,
+            tipo_vaga: "CLT",
+            nome: "Analista DevOps",
+            localizacao: "São Paulo",
+            modalidade: "Remoto",
+            salario: 9500.00
+        },
+        {
+            id_vaga: 23,
+            tipo_vaga: "CLT",
+            nome: "Arquiteto de Cloud",
+            localizacao: "Rio de Janeiro",
+            modalidade: "Híbrido",
+            salario: 11000.00
+        },
+        {
+            id_vaga: 24,
+            tipo_vaga: "CLT",
+            nome: "Especialista em Dados",
+            localizacao: "Rio de Janeiro",
+            modalidade: "Presencial",
+            salario: 10000.00
+        },
+        {
+            id_vaga: 25,
+            tipo_vaga: "CLT",
+            nome: "Engenheiro de Testes",
+            localizacao: "Salvador",
+            modalidade: "Remoto",
+            salario: 8000.00
+        },
+        {
+            id_vaga: 26,
+            tipo_vaga: "CLT",
+            nome: "Administrador de Sistemas",
+            localizacao: "Salvador",
+            modalidade: "Presencial",
+            salario: 7800.00
+        },
+        {
+            id_vaga: 27,
+            tipo_vaga: "CLT",
+            nome: "Desenvolvedor Frontend",
+            localizacao: "Belo Horizonte",
+            modalidade: "Presencial",
+            salario: 8800.00
+        },
+        {
+            id_vaga: 28,
+            tipo_vaga: "CLT",
+            nome: "Cientista de Dados",
+            localizacao: "Belo Horizonte",
+            modalidade: "Híbrido",
+            salario: 12000.00
+        },
+        {
+            id_vaga: 29,
+            tipo_vaga: "CLT",
+            nome: "Engenheiro de Software",
+            localizacao: "Porto Alegre",
+            modalidade: "Remoto",
+            salario: 9000.00
+        },
+        {
+            id_vaga: 30,
+            tipo_vaga: "CLT",
+            nome: "Especialista em Segurança da Informação",
+            localizacao: "Porto Alegre",
+            modalidade: "Presencial",
+            salario: 11000.00
+        },
+        {
+            id_vaga: 31,
+            tipo_vaga: "CLT",
+            nome: "Analista de Banco de Dados",
+            localizacao: "Fortaleza",
+            modalidade: "Híbrido",
+            salario: 7500.00
+        },
+        {
+            id_vaga: 32,
+            tipo_vaga: "CLT",
+            nome: "Desenvolvedor Mobile",
+            localizacao: "Fortaleza",
+            modalidade: "Presencial",
+            salario: 8200.00
+        },
+        {
+            id_vaga: 33,
+            tipo_vaga: "CLT",
+            nome: "Analista de Infraestrutura",
+            localizacao: "Recife",
+            modalidade: "Híbrido",
+            salario: 8000.00
+        },
+        {
+            id_vaga: 34,
+            tipo_vaga: "CLT",
+            nome: "Desenvolvedor Full Stack",
+            localizacao: "Recife",
+            modalidade: "Presencial",
+            salario: 9000.00
+        },
+        {
+            id_vaga: 35,
+            tipo_vaga: "CLT",
+            nome: "Engenheiro de Machine Learning",
+            localizacao: "Curitiba",
+            modalidade: "Remoto",
+            salario: 11000.00
+        },
+        {
+            id_vaga: 36,
+            tipo_vaga: "CLT",
+            nome: "Analista de Qualidade de Software",
+            localizacao: "Curitiba",
+            modalidade: "Presencial",
+            salario: 8500.00
+        },
+        {
+            id_vaga: 37,
+            tipo_vaga: "CLT",
+            nome: "Gerente de TI",
+            localizacao: "Brasília",
+            modalidade: "Híbrido",
+            salario: 13000.00
+        },
+        {
+            id_vaga: 38,
+            tipo_vaga: "CLT",
+            nome: "Engenheiro de Redes",
+            localizacao: "Brasília",
+            modalidade: "Presencial",
+            salario: 9000.00
+        },
+        {
+            id_vaga: 39,
+            tipo_vaga: "CLT",
+            nome: "Analista de Cybersecurity",
+            localizacao: "Manaus",
+            modalidade: "Híbrido",
+            salario: 9200.00
+        },
+        {
+            id_vaga: 40,
+            tipo_vaga: "CLT",
+            nome: "Desenvolvedor IoT",
+            localizacao: "Manaus",
+            modalidade: "Presencial",
+            salario: 9500.00
+        },
+        {
             id_vaga: 4,
             tipo_vaga: "CLT",
             nome: "Engenheiro de Software",
@@ -39,438 +200,6 @@ const vagas = [
             localizacao: "Curitiba",
             modalidade: "Presencial",
             salario: 11000.0
-        },
-        {
-            "id_vaga": 6,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Acre",
-            "localizacao": "Acre",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 7,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Acre",
-            "localizacao": "Acre",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 8,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Alagoas",
-            "localizacao": "Alagoas",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 9,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Alagoas",
-            "localizacao": "Alagoas",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 10,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Amapá",
-            "localizacao": "Amapá",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 11,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Amapá",
-            "localizacao": "Amapá",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 12,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Amazonas",
-            "localizacao": "Amazonas",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 13,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Amazonas",
-            "localizacao": "Amazonas",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 14,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Bahia",
-            "localizacao": "Bahia",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 15,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Bahia",
-            "localizacao": "Bahia",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 16,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Ceará",
-            "localizacao": "Ceará",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 17,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Ceará",
-            "localizacao": "Ceará",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 18,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Distrito Federal",
-            "localizacao": "Distrito Federal",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 19,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Distrito Federal",
-            "localizacao": "Distrito Federal",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 20,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Espírito Santo",
-            "localizacao": "Espírito Santo",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 21,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Espírito Santo",
-            "localizacao": "Espírito Santo",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 22,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Goiás",
-            "localizacao": "Goiás",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 23,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Goiás",
-            "localizacao": "Goiás",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 24,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Maranhão",
-            "localizacao": "Maranhão",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 25,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Maranhão",
-            "localizacao": "Maranhão",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 26,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Mato Grosso",
-            "localizacao": "Mato Grosso",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 27,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Mato Grosso",
-            "localizacao": "Mato Grosso",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 28,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Mato Grosso do Sul",
-            "localizacao": "Mato Grosso do Sul",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 29,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Mato Grosso do Sul",
-            "localizacao": "Mato Grosso do Sul",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 30,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Minas Gerais",
-            "localizacao": "Minas Gerais",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 31,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Minas Gerais",
-            "localizacao": "Minas Gerais",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 32,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Pará",
-            "localizacao": "Pará",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 33,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Pará",
-            "localizacao": "Pará",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 34,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Paraíba",
-            "localizacao": "Paraíba",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 35,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Paraíba",
-            "localizacao": "Paraíba",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 36,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Paraná",
-            "localizacao": "Paraná",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 37,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Paraná",
-            "localizacao": "Paraná",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 38,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Pernambuco",
-            "localizacao": "Pernambuco",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 39,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Pernambuco",
-            "localizacao": "Pernambuco",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 40,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Piauí",
-            "localizacao": "Piauí",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 41,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Piauí",
-            "localizacao": "Piauí",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 42,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Rio de Janeiro",
-            "localizacao": "Rio de Janeiro",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 43,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Rio de Janeiro",
-            "localizacao": "Rio de Janeiro",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 44,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Rio Grande do Norte",
-            "localizacao": "Rio Grande do Norte",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 45,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Rio Grande do Norte",
-            "localizacao": "Rio Grande do Norte",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 46,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Rio Grande do Sul",
-            "localizacao": "Rio Grande do Sul",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 47,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Rio Grande do Sul",
-            "localizacao": "Rio Grande do Sul",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 48,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Rondônia",
-            "localizacao": "Rondônia",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 49,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Rondônia",
-            "localizacao": "Rondônia",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 50,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Roraima",
-            "localizacao": "Roraima",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 51,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Roraima",
-            "localizacao": "Roraima",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 52,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Santa Catarina",
-            "localizacao": "Santa Catarina",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 53,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Santa Catarina",
-            "localizacao": "Santa Catarina",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 54,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor São Paulo",
-            "localizacao": "São Paulo",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 55,
-            "tipo_vaga": "CLT",
-            "nome": "Analista São Paulo",
-            "localizacao": "São Paulo",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 56,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Sergipe",
-            "localizacao": "Sergipe",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 57,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Sergipe",
-            "localizacao": "Sergipe",
-            "modalidade": "Remoto",
-            "salario": 6500.0
-        },
-        {
-            "id_vaga": 58,
-            "tipo_vaga": "CLT",
-            "nome": "Desenvolvedor Tocantins",
-            "localizacao": "Tocantins",
-            "modalidade": "Presencial",
-            "salario": 7000.0
-        },
-        {
-            "id_vaga": 59,
-            "tipo_vaga": "CLT",
-            "nome": "Analista Tocantins",
-            "localizacao": "Tocantins",
-            "modalidade": "Remoto",
-            "salario": 6500.0
         },
         // Vagas de Estágio
         {
